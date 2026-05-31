@@ -1,107 +1,128 @@
-# public-datasets-in-battery
+# Awesome Battery Datasets
 
-Curated datasets for **XXX领域** (e.g., NLP / Medical / Finance / Robotics).
+Curated collection of high-quality datasets for battery-related molecular and materials research, covering organic small molecules, molecular crystals, electrolyte mixtures, and polymers.
 
-This repository collects and organizes high-quality datasets for research, benchmarking, and applied development.
+The repository focuses on datasets that include **physical properties relevant to energy storage**, such as conductivity, stability, solvation, redox potential, diffusion, and structural features.
 
 ---
 
 # 📌 Dataset Categories
 
-## 1. Foundation Datasets
-
-Large-scale datasets used for pretraining and representation learning.
-
-| Dataset | Description | Size | License | Link |
-|--------|-------------|------|---------|------|
-| Dataset A | General corpus for pretraining | 10M samples | MIT | [Link](#) |
-| Dataset B | Web-scale text dataset | 2TB | Apache-2.0 | [Link](#) |
+Datasets are organized by **material type**, rather than task, to better reflect chemistry and materials science workflows.
 
 ---
 
-## 2. Benchmark Datasets
+## 1. Organic Small Molecules
 
-Standard datasets used for evaluation and comparison of models.
+Datasets containing discrete organic molecules used in electrolytes, redox-active materials, and organic electrodes.
 
-| Dataset | Task | Metric | Size | Link |
-|--------|------|--------|------|------|
-| Benchmark A | Classification | Accuracy | 50K | [Link](#) |
-| Benchmark B | Question Answering | F1 Score | 100K | [Link](#) |
+| Dataset | Collection Method | Size | Properties Included | Link |
+|--------|------------------|------|---------------------|------|
+| Dataset A | DFT + literature mining | 1.2M molecules | redox potential, HOMO/LUMO, dipole moment | [Link](#) |
+| Dataset B | High-throughput computation | 500K molecules | stability, solvation energy, polarizability | [Link](#) |
 
----
+### Typical Properties
 
-## 3. Instruction / Alignment Datasets
-
-Datasets designed for instruction tuning, RLHF, or human preference learning.
-
-| Dataset | Type | Language | Size | Link |
-|--------|------|----------|------|------|
-| Dataset A | Human preference | EN | 100K | [Link](#) |
-| Dataset B | Instruction tuning | Multilingual | 1M | [Link](#) |
+- Redox potential
+- HOMO / LUMO energy
+- Dipole moment
+- Solvation free energy
+- Stability / decomposition energy
 
 ---
 
-## 4. Multimodal Datasets
+## 2. Molecular Crystals
 
-Datasets involving multiple modalities (text, image, audio, video).
+Datasets of crystalline organic or inorganic molecular solids.
 
-| Dataset | Modalities | Task | Size | Link |
-|--------|------------|------|------|------|
-| Dataset A | Image + Text | Captioning | 5M pairs | [Link](#) |
-| Dataset B | Video + Audio | Video QA | 100K | [Link](#) |
+| Dataset | Collection Method | Size | Properties Included | Link |
+|--------|------------------|------|---------------------|------|
+| Dataset A | X-ray + DFT refinement | 100K crystals | lattice energy, band gap, density | [Link](#) |
+| Dataset B | Crystal structure prediction (CSP) | 50K structures | stability, packing density | [Link](#) |
 
----
+### Typical Properties
 
-## 5. Synthetic Datasets
-
-AI-generated or simulation-based datasets.
-
-| Dataset | Generation Method | Use Case | Link |
-|--------|------------------|----------|------|
-| Dataset A | LLM-generated | Instruction tuning | [Link](#) |
-| Dataset B | Simulation | Robotics training | [Link](#) |
+- Crystal structure (CIF)
+- Lattice energy
+- Band gap
+- Density
+- Mechanical stability
+- Packing efficiency
 
 ---
 
-## 6. Evaluation & Safety Datasets
+## 3. Electrolyte Mixtures
 
-Datasets used for robustness, bias, safety, and hallucination evaluation.
+Datasets of liquid electrolytes including solvents, salts, and additives.
 
-| Dataset | Focus | Description | Link |
-|--------|------|-------------|------|
-| Dataset A | Hallucination | Test factual consistency | [Link](#) |
-| Dataset B | Bias | Evaluate fairness | [Link](#) |
+| Dataset | Collection Method | Size | Properties Included | Link |
+|--------|------------------|------|---------------------|------|
+| Dataset A | MD simulation | 10K mixtures | ionic conductivity, viscosity | [Link](#) |
+| Dataset B | Experimental + ML augmentation | 5K systems | diffusion coefficient, transference number | [Link](#) |
 
----
+### Typical Properties
 
-## 7. Domain-Specific Datasets
-
-Specialized datasets for specific industries or applications.
-
-| Domain | Example Datasets |
-|--------|----------------|
-| Medical | MedQA, PubMedQA |
-| Finance | FinQA, Bloomberg datasets |
-| Legal | LegalBench |
-| Robotics | RoboNet |
-| Education | EduQA |
-| Security | Cybersecurity datasets |
+- Ionic conductivity
+- Viscosity
+- Diffusion coefficients
+- Solvation structure
+- Transference number
+- Electrochemical stability window
 
 ---
 
-# 📊 Dataset Entry Standard
+## 4. Polymers
 
-Each dataset should follow this format:
+Datasets of polymer electrolytes, binders, and solid-state ion conductors.
+
+| Dataset | Collection Method | Size | Properties Included | Link |
+|--------|------------------|------|---------------------|------|
+| Dataset A | MD simulation + experiments | 20K polymers | ionic conductivity, Tg, modulus | [Link](#) |
+| Dataset B | High-throughput screening | 8K polymers | mechanical strength, ion mobility | [Link](#) |
+
+### Typical Properties
+
+- Ionic conductivity
+- Glass transition temperature (Tg)
+- Mechanical modulus
+- Ion mobility
+- Dielectric constant
+- Electrochemical stability
+
+---
+
+# 📊 Standard Dataset Schema
+
+Each dataset MUST follow this metadata format for consistency:
 
 ```yaml
 name: Dataset Name
-task: Task type (QA / classification / generation)
-modality: Text / Image / Audio / Multimodal
-language: English / Multilingual
-size: Dataset size
-license: License type
-paper: Paper link (if any)
-homepage: Official page
-download: Download link
-benchmark: Related benchmark (if any)
-year: Release year
+material_type: Organic / Crystal / Electrolyte / Polymer
+
+collection_method:
+  - DFT calculation
+  - Molecular dynamics
+  - Experimental measurement
+  - Literature mining
+  - High-throughput screening
+
+size: Number of samples (e.g. 100K molecules)
+
+representation:
+  - SMILES
+  - 3D coordinates
+  - CIF (crystals)
+  - Molecular graphs
+
+properties:
+  - list of physical / chemical properties included
+
+data_format: CSV / JSON / HDF5 / ASE / CIF
+
+temperature_range: optional
+pressure_conditions: optional
+
+license: open / restricted / academic
+paper: link to publication (if available)
+download: dataset URL
+year: release year
