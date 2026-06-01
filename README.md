@@ -47,7 +47,7 @@ Datasets are organized by **material type**, reflecting chemical and physical mo
 Small organic molecules with properties relevant to electrochemical systems, including redox activity and solvation behavior.
 
 | Dataset | Description | Method | Size | Key Properties | Access |
-|:----------|:-------------|:--------|:-----|:------------|:------|
+|:----------|:-------------|:------|:-----|:------------|:-----|
 | QM9 |--| B3LYP/6-31G(2df,p) | 134K | HOMO, LUMO, μ| [Link](https://quantum-machine.org/datasets/) |
 | QMugs |--| ωB97X-D/def2-SVP | 2M | HOMO, LUMO, μ| [Link](https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM) |
 | JCESR |--| B3LYP/6-31+G* | 25K | EA, IP | [Link](https://next-gen.materialsproject.org/jcesr) |
@@ -71,7 +71,7 @@ Small organic molecules with properties relevant to electrochemical systems, inc
 Crystalline materials with properties relevant to ion transport and electrochemical systems.
 
 | Dataset | Description | Method | Size | Key Properties | Access |
-|:----------|:-------------|:--------|:-----|:------------|:------|
+|:----------|:-------------|:------|:-----|:------------|:-----|
 | OQMD |--| -- | -- | --- | [Link](#) |
 | ARVIS‐DFT |--| -- | -- | --- | [Link](#) |
 
@@ -82,7 +82,7 @@ Crystalline materials with properties relevant to ion transport and electrochemi
 Liquid electrolyte systems including solvents, salts, and additives.
 
 | Dataset | Description | Method | Size | Key Properties | Access |
-|:----------|:-------------|:--------|:-----|:------------|:------|
+|:----------|:-------------|:------|:-----|:------------|:-----|
 | Shi J. et al |--| MD | 2K | Li diffusion doefficient, ionic conductivity | [Link](https://doi.org/10.1021/acs.jpclett.5c02681) |
 | Yang Z. et al |--| Exp | 10K | ionic conductivity | [Link](https://huggingface.co/ByteDance-Seed/bamboo_mixer) |
 | CALiSol-23 |--| Exp | 13K | ionic conductivity | [Link](https://github.com/Pele0599/CALiSol-23) |
@@ -94,7 +94,7 @@ Liquid electrolyte systems including solvents, salts, and additives.
 Polymer systems with properties relevant to ion transport and electrochemical behavior.
 
 | Dataset | Description | Method | Size | Key Properties | Access |
-|:----------|:-------------|:--------|:-----|:------------|:------|
+|:----------|:-------------|:------|:-----|:------------|:-----|
 | PPPdb |--| Exp | 212 | Tg | [Link](https://pppdb.uchicago.edu/tg) |
 | VitrimerVAE |--| MD | 8K | Tg | [Link](https://github.com/vashisth-lab/VitrimerVAE/tree/main) |
 | PolyMetriX |--| Exp | 7K | Tg | [Link](https://zenodo.org/records/14980914) |
