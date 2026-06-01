@@ -47,7 +47,7 @@ Datasets are organized by **material type**, reflecting chemical and physical mo
 Small organic molecules with properties relevant to electrochemical systems, including redox activity and solvation behavior.
 
 | Dataset | Description | Method | Size | Key Properties | Access |
-|:--------|:-------------|:--------|:------|:------------|:------|
+|:----------|:-------------|:--------|:-----|:------------|:------|
 | QM9 |--| B3LYP/6-31G(2df,p) | 134K | HOMO, LUMO, μ| [Link](https://quantum-machine.org/datasets/) |
 | QMugs |--| ωB97X-D/def2-SVP | 2M | HOMO, LUMO, μ| [Link](https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM) |
 | JCESR |--| B3LYP/6-31+G* | 25K | EA, IP | [Link](https://next-gen.materialsproject.org/jcesr) |
@@ -60,9 +60,9 @@ Small organic molecules with properties relevant to electrochemical systems, inc
 | Gao Y., et al |--| Exp | 210 | DN | [Link](https://onlinelibrary.wiley.com/doi/10.1002/anie.202411437) |
 | Gutmann |--| Exp | 224 | AN,DN | [Link](https://www.stenutz.eu/chem/gutmann.php) |
 | Yuan X., et al |--| MD | 277 | viscosity | [Link](https://doi.org/10.1016/j.jechem.2024.10.021) |
-| Chew A. K., et al |--| Exp | > 4K | viscosity | [Link](https://link.springer.com/article/10.1186/s13321-024-00820-5) |
+| Chew A.K., et al |--| Exp | > 4K | viscosity | [Link](https://link.springer.com/article/10.1186/s13321-024-00820-5) |
 | 3DG-MP |--| Exp | 237K | MP | [Link](https://github.com/Hyanqing/3DG-MP) |
-| -- |--| Exp | 101 | DC | [Link](https://doi.org/10.60893/figshare.jcp.c.7791965) |
+| He Y., et al- |--| Exp | 101 | DC | [Link](https://doi.org/10.60893/figshare.jcp.c.7791965) |
 
 ---
 
@@ -71,7 +71,7 @@ Small organic molecules with properties relevant to electrochemical systems, inc
 Crystalline materials with properties relevant to ion transport and electrochemical systems.
 
 | Dataset | Description | Method | Size | Key Properties | Access |
-|:--------|:-------------|:--------|:------|:------------|:------|
+|:----------|:-------------|:--------|:-----|:------------|:------|
 | OQMD |--| -- | -- | --- | [Link](#) |
 | ARVIS‐DFT |--| -- | -- | --- | [Link](#) |
 
@@ -82,7 +82,7 @@ Crystalline materials with properties relevant to ion transport and electrochemi
 Liquid electrolyte systems including solvents, salts, and additives.
 
 | Dataset | Description | Method | Size | Key Properties | Access |
-|:--------|:-------------|:--------|:------|:------------|:------|
+|:----------|:-------------|:--------|:-----|:------------|:------|
 | Shi J. et al |--| MD | 2K | Li diffusion doefficient, ionic conductivity | [Link](https://doi.org/10.1021/acs.jpclett.5c02681) |
 | Yang Z. et al |--| Exp | 10K | ionic conductivity | [Link](https://huggingface.co/ByteDance-Seed/bamboo_mixer) |
 | CALiSol-23 |--| Exp | 13K | ionic conductivity | [Link](https://github.com/Pele0599/CALiSol-23) |
@@ -94,7 +94,7 @@ Liquid electrolyte systems including solvents, salts, and additives.
 Polymer systems with properties relevant to ion transport and electrochemical behavior.
 
 | Dataset | Description | Method | Size | Key Properties | Access |
-|:--------|:-------------|:--------|:------|:------------|:------|
+|:----------|:-------------|:--------|:-----|:------------|:------|
 | PPPdb |--| Exp | 212 | Tg | [Link](https://pppdb.uchicago.edu/tg) |
 | Chemprop |--| xTB+B3LYP/DZP | 42K | EA, IP | [Link](https://github.com/coleygroup/polymer-chemprop-data) |
 | PoLyInfo |--| Exp | >200K | DC, Tg, Tensile modulus | [Link](https://polymer.nims.go.jp/) |
