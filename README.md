@@ -55,12 +55,12 @@ Small organic molecules with properties relevant to electrochemical systems, inc
 | ConGen |--| B3LYP/6-31+G* | 62K | EA, IP | [Link](https://github.com/jpmailoa/ConGen_Dataset) |
 | OMEAD |--| B3LYP/6–31G(d) | 26K | HOMO, LUMO, EA, IP, E₀ | [Link](https://gitlab.com/rpcarvalho/anima) |
 | MNSOL |--| Exp | 2K | ΔG(sol) | [Link](https://conservancy.umn.edu/items/c3db00cf-d573-461b-adf5-389ff929d918) |
-| ASMS |--| Exp | 1,708 | aqueous solubility | [Link](https://pubs.acs.org/doi/full/10.1021/ci800406y) |
+| ASMS |--| Exp | ~2K | aqueous solubility | [Link](https://pubs.acs.org/doi/full/10.1021/ci800406y) |
 | SOMAS |--| PBE0/6–31 G** | 12K | HOMO, LUMO, aqueous solubility | [Link](https://figshare.com/articles/dataset/SOMAS/14552697) |
 | Gao Y., et al |--| Exp | 210 | DN | [Link](https://onlinelibrary.wiley.com/doi/10.1002/anie.202411437) |
 | Gutmann |--| Exp | 224 | AN,DN | [Link](https://www.stenutz.eu/chem/gutmann.php) |
 | Yuan X., et al |--| MD | 277 | viscosity | [Link](https://doi.org/10.1016/j.jechem.2024.10.021) |
-| Chew A.K., et al |--| Exp | > 4K | viscosity | [Link](https://link.springer.com/article/10.1186/s13321-024-00820-5) |
+| Chew A.K., et al |--| Exp | >4K | viscosity | [Link](https://link.springer.com/article/10.1186/s13321-024-00820-5) |
 | 3DG-MP |--| Exp | 237K | MP | [Link](https://github.com/Hyanqing/3DG-MP) |
 | Feng Z., et al |--| Exp | 101 | DC | [Link](https://doi.org/10.60893/figshare.jcp.c.7791965) |
 
@@ -72,8 +72,8 @@ Crystalline materials with properties relevant to ion transport and electrochemi
 
 | Dataset | Description | Method | Size | Key Properties | Access |
 |:----------|:-------------|:------|:-----|:------------|:-----|
-| OQMD |--| -- | -- | --- | [Link](#) |
-| ARVIS‐DFT |--| -- | -- | --- | [Link](#) |
+| OQMD |--| -- | -- | --- | [Link]() |
+| ARVIS‐DFT |--| -- | -- | --- | [Link]() |
 
 ---
 
