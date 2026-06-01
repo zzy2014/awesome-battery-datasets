@@ -83,7 +83,7 @@ Liquid electrolyte systems including solvents, salts, and additives.
 
 | Dataset | Description | Method | Size | Key Properties | Access |
 |:----------|:-------------|:------|:-----|:------------|:-----|
-| Shi J. et al |--| MD | 2K | Li diffusion doefficient, ionic conductivity | [Link](https://doi.org/10.1021/acs.jpclett.5c02681) |
+| Shi J. et al |--| MD | 2K | Li diffusion coefficient, ionic conductivity | [Link](https://doi.org/10.1021/acs.jpclett.5c02681) |
 | Yang Z. et al |--| Exp | 10K | ionic conductivity | [Link](https://huggingface.co/ByteDance-Seed/bamboo_mixer) |
 | CALiSol-23 |--| Exp | 13K | ionic conductivity | [Link](https://github.com/Pele0599/CALiSol-23) |
 
@@ -104,7 +104,7 @@ Polymer systems with properties relevant to ion transport and electrochemical be
 | PoLyInfo |--| Exp | >200K | DC, Tg, Tensile modulus | [Link](https://polymer.nims.go.jp/) |
 | PolyOmics |--| MD | 3M | DC, Tg, bulk modulus, self-diffusion coefficient | [Link](https://huggingface.co/datasets/yhayashi1986/PolyOmics) |
 | PEDatamine |--| Exp | 5k | Tg, ionic conductivity | [Link](https://pedatamine.org/) |
-| HTP-MD |--| MD | 6k | ionic conductivity, Li Diffusivity | [Link](https://www.htpmd.matr.io/ ) |
+| HTP-MD |--| MD | 6k | ionic conductivity, Li diffusion coefficient | [Link](https://www.htpmd.matr.io/ ) |
 | Chem-Arr |--| Exp | 15k | ionic conductivity | [Link](https://github.com/learningmatter-mit/Chem-prop-pred) |
 
 
