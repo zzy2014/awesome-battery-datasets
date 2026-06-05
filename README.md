@@ -1,6 +1,6 @@
-# Battery-Relevant Dataset Catalog
+# O2EM-data-catalog
 
-A curated catalog of publicly available molecular and materials datasets with properties relevant to electrochemical and battery systems, including organic small molecules, molecular crystals, electrolyte mixtures, and polymers.
+A curated catalog of publicly available datasets with properties relevant to organic electrochemical energy material (O2EM).
 
 ---
 
