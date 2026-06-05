@@ -51,19 +51,19 @@ Small organic molecules with properties relevant to electrochemical systems, inc
 |:---------|:--------|:---|:------|:----|:----------|:----|
 | QM9 |H,C,N,O,F| 9 |B3LYP/6-31G(2df,p) | 134K | HOMO, LUMO, μ| [Link](https://figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904) |
 | QMugs |--| 100 |ωB97X-D/def2-SVP | ~2M | HOMO, LUMO, μ| [Link](https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM) |
-| JCESR |--| 9 |B3LYP/6-31+G* | 25K | EA, IP | [Link](https://next-gen.materialsproject.org/jcesr) |
-| MPcules |--| 9 |ωB97M-V/def2-TZVPPD | 577K | EA, IP, E₀| [Link](https://next-gen.materialsproject.org/molecules) |
-| ConGen |--| 9 |B3LYP/6-31+G* | 62K | EA, IP | [Link](https://github.com/jpmailoa/ConGen_Dataset) |
-| OMEAD |--| 9 |B3LYP/6–31G(d) | 26K | HOMO, LUMO, EA, IP, E₀ | [Link](https://gitlab.com/rpcarvalho/anima) |
-| MNSOL |--| 9 |Exp | 2K | ΔG(sol) | [Link](https://conservancy.umn.edu/items/c3db00cf-d573-461b-adf5-389ff929d918) |
-| ASMS |--| 9 |Exp | ~2K | aqueous solubility | [Link](https://pubs.acs.org/doi/suppl/10.1021/ci800406y/suppl_file/ci800406y_si_001.xls) |
-| SOMAS |--| 9 |PBE0/6–31 G** | 12K | HOMO, LUMO, aqueous solubility | [Link](https://figshare.com/articles/dataset/SOMAS/14552697) |
-| SCUT-DN |--| 9 |Exp | 210 | DN | [Link](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fanie.202411437&file=anie202411437-sup-0001-Supporting-Information-Sheets.xlsx) |
-| Gutmann |--| 9 |Exp | 224 | AN,DN | [Link](https://www.stenutz.eu/chem/gutmann.php) |
-| SCUT-VISC |--| 9 |MD | 277 | viscosity | [Link](https://ars.els-cdn.com/content/image/1-s2.0-S2095495624007265-mmc2.xlsx) |
-| Schrödinger-VISC |--| 9 |Exp | 3K | viscosity | [Link](https://static-content.springer.com/esm/art%3A10.1186%2Fs13321-024-00820-5/MediaObjects/13321_2024_820_MOESM2_ESM.csv) |
-| 3DG-MP |--| 9 |Exp | 237K | MP | [Link](https://github.com/Hyanqing/3DG-MP) |
-| NanjingTech-DC |--| 9 |Exp | 101 | DC | [Link](https://doi.org/10.60893/figshare.jcp.c.7791965) |
+| JCESR |--| ? |B3LYP/6-31+G* | 25K | EA, IP | [Link](https://next-gen.materialsproject.org/jcesr) |
+| MPcules |--| ? |ωB97M-V/def2-TZVPPD | 577K | EA, IP, E₀| [Link](https://next-gen.materialsproject.org/molecules) |
+| ConGen |--| ? |B3LYP/6-31+G* | 62K | EA, IP | [Link](https://github.com/jpmailoa/ConGen_Dataset) |
+| OMEAD |--| ? |B3LYP/6–31G(d) | 26K | HOMO, LUMO, EA, IP, E₀ | [Link](https://gitlab.com/rpcarvalho/anima) |
+| MNSOL |--| ? |Exp | 2K | ΔG(sol) | [Link](https://conservancy.umn.edu/items/c3db00cf-d573-461b-adf5-389ff929d918) |
+| ASMS |--| ? |Exp | ~2K | aqueous solubility | [Link](https://pubs.acs.org/doi/suppl/10.1021/ci800406y/suppl_file/ci800406y_si_001.xls) |
+| SOMAS |--| ? |PBE0/6–31 G** | 12K | HOMO, LUMO, aqueous solubility | [Link](https://figshare.com/articles/dataset/SOMAS/14552697) |
+| SCUT-DN |--| ? |Exp | 210 | DN | [Link](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fanie.202411437&file=anie202411437-sup-0001-Supporting-Information-Sheets.xlsx) |
+| Gutmann |--| ? |Exp | 224 | AN,DN | [Link](https://www.stenutz.eu/chem/gutmann.php) |
+| SCUT-VISC |--| ? |MD | 277 | viscosity | [Link](https://ars.els-cdn.com/content/image/1-s2.0-S2095495624007265-mmc2.xlsx) |
+| Schrödinger-VISC |--| ? |Exp | 3K | viscosity | [Link](https://static-content.springer.com/esm/art%3A10.1186%2Fs13321-024-00820-5/MediaObjects/13321_2024_820_MOESM2_ESM.csv) |
+| 3DG-MP |--| ? |Exp | 237K | MP | [Link](https://github.com/Hyanqing/3DG-MP) |
+| NanjingTech-DC |--| ? |Exp | 101 | DC | [Link](https://doi.org/10.60893/figshare.jcp.c.7791965) |
 
 ---
 
