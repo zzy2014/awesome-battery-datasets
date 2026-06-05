@@ -57,12 +57,12 @@ Small organic molecules with properties relevant to electrochemical systems, inc
 | MNSOL |--| Exp | 2K | ΔG(sol) | [Link](https://conservancy.umn.edu/items/c3db00cf-d573-461b-adf5-389ff929d918) |
 | ASMS |--| Exp | ~2K | aqueous solubility | [Link](https://pubs.acs.org/doi/full/10.1021/ci800406y) |
 | SOMAS |--| PBE0/6–31 G** | 12K | HOMO, LUMO, aqueous solubility | [Link](https://figshare.com/articles/dataset/SOMAS/14552697) |
-| Gao Y., et al |--| Exp | 210 | DN | [Link](https://onlinelibrary.wiley.com/doi/10.1002/anie.202411437) |
+| SCUT-DN |--| Exp | 210 | DN | [Link](https://onlinelibrary.wiley.com/doi/10.1002/anie.202411437) |
 | Gutmann |--| Exp | 224 | AN,DN | [Link](https://www.stenutz.eu/chem/gutmann.php) |
-| Yuan X., et al |--| MD | 277 | viscosity | [Link](https://doi.org/10.1016/j.jechem.2024.10.021) |
-| Chew A.K., et al |--| Exp | >4K | viscosity | [Link](https://link.springer.com/article/10.1186/s13321-024-00820-5) |
+| SCUT-VISC |--| MD | 277 | viscosity | [Link](https://doi.org/10.1016/j.jechem.2024.10.021) |
+| Schrödinger-VISC |--| Exp | >4K | viscosity | [Link](https://link.springer.com/article/10.1186/s13321-024-00820-5) |
 | 3DG-MP |--| Exp | 237K | MP | [Link](https://github.com/Hyanqing/3DG-MP) |
-| Feng Z., et al |--| Exp | 101 | DC | [Link](https://doi.org/10.60893/figshare.jcp.c.7791965) |
+| NanjingTech-DC |--| Exp | 101 | DC | [Link](https://doi.org/10.60893/figshare.jcp.c.7791965) |
 
 ---
 
@@ -83,8 +83,8 @@ Liquid electrolyte systems including solvents, salts, and additives.
 
 | Dataset | Description | Method | Size | Key Properties | Access |
 |:----------|:-------------|:------|:-----|:------------|:-----|
-| Shi J. et al |--| MD | 2K | Li diffusion coefficient, ionic conductivity | [Link](https://doi.org/10.1021/acs.jpclett.5c02681) |
-| Yang Z. et al |--| Exp | 10K | ionic conductivity | [Link](https://huggingface.co/ByteDance-Seed/bamboo_mixer) |
+| NUAA-COND |--| MD | 2K | Li diffusion coefficient, ionic conductivity | [Link](https://doi.org/10.1021/acs.jpclett.5c02681) |
+| ByteDance-COND |--| Exp | 10K | ionic conductivity | [Link](https://huggingface.co/ByteDance-Seed/bamboo_mixer) |
 | CALiSol-23 |--| Exp | 13K | ionic conductivity | [Link](https://github.com/Pele0599/CALiSol-23) |
 
 ---
