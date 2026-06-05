@@ -23,6 +23,7 @@ Datasets are organized by **material type**, reflecting chemical and physical mo
 
 | Abbreviation | Definition |
 |:---|:---|
+| MNHA | Maximum Number of Heavy Atoms |
 | Exp | Experiments |
 | MD | Molecular Simulation |
 | DFT | Density Functional Theory |
@@ -46,8 +47,8 @@ Datasets are organized by **material type**, reflecting chemical and physical mo
 
 Small organic molecules with properties relevant to electrochemical systems, including redox activity and solvation behavior.
 
-| Dataset | Elements | Max[num(non-H)] |  Method | Size | Key Properties | Access |
-|:---------|:----------|:---|:------|:-----|:----------|:----|
+| Dataset | Elements | MNHA |  Method | Size | Key Properties | Access |
+|:---------|:--------|:---|:------|:----|:----------|:----|
 | QM9 |H,C,N,O,F| 9 |B3LYP/6-31G(2df,p) | 134K | HOMO, LUMO, μ| [Link](https://figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904) |
 | QMugs |--| 100 |ωB97X-D/def2-SVP | ~2M | HOMO, LUMO, μ| [Link](https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM) |
 | JCESR |--| 9 |B3LYP/6-31+G* | 25K | EA, IP | [Link](https://next-gen.materialsproject.org/jcesr) |
