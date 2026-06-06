@@ -85,8 +85,8 @@ Crystalline materials with properties relevant to ion transport and electrochemi
 
 Liquid electrolyte systems including solvents, salts, and additives.
 
-| Dataset | Description | Method | Size | Key Properties | Access |
-|:----------|:-------------|:------|:-----|:------------|:-----|
+| Dataset | Elements | Method | Size | Key Properties | Access |
+|:------------|:---|:---------|:-|:----------|:-|
 | NUAA-COND |--| MD | 2K | Li diffusion coefficient, COND | [Link](https://pubs.acs.org/doi/10.1021/acs.jpclett.5c02681#_i2) |
 | ByteDance-COND |--| Exp | 10K | COND | [Link](https://huggingface.co/ByteDance-Seed/bamboo_mixer) |
 | CALiSol-23 |--| Exp | 13K | COND | [Link](https://github.com/Pele0599/CALiSol-23) |
