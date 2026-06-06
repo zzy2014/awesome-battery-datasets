@@ -48,12 +48,12 @@ Datasets are organized by **material type**, reflecting chemical and physical mo
 Small organic molecules with properties relevant to electrochemical systems, including redox activity and solvation behavior.
 
 | Dataset | Elements | MNHA |  Method | Size | Key Properties | Access |
-|:---------|:--------|:---|:------|:----|:----------|:----|
+|:---------|:--------|:--|:------|:----|:----------|:---|
 | QM9 |H,C,N,O,F| 9 |B3LYP/6-31G(2df,p) | 134K | HOMO, LUMO, μ| [Link](https://figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904) |
 | QMugs |H,C,N,O,F,<br>P,S,Cl,Br,I| 100 |ωB97X-D/def2-SVP | ~2M | HOMO, LUMO, μ| [Link](https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM) |
 | JCESR |H,Li,Be,B,C,<br>N,O,F,Na,Mg,<br>Al,Si,P,S,Cl,<br>Ca,Zn,Br| 92 |B3LYP/6-31+G* | 25K | EA, IP | [Link](https://next-gen.materialsproject.org/jcesr) |
-| MPcules |H,Li,B,C,N,<br>O,F,Mg,P,S,Cl| 31 |ωB97M-V/def2-TZVPPD | 577K | EA, IP, E₀| [Link](https://next-gen.materialsproject.org/molecules) |
-| ConGen |H,B,C,N,O,F,<br>Si,P,S,Cl,Br| 92 |B3LYP/6-31+G* | 62K | EA, IP | [Link](https://github.com/jpmailoa/ConGen_Dataset/blob/main/Figure_3_Training_Data/data_Table_2/table_2_MP_IE_EA.csv) |
+| MPcules |H,Li,B,C,N,<br>O,F,Mg,P,S,<br>Cl| 31 |ωB97M-V/def2-TZVPPD | 577K | EA, IP, E₀| [Link](https://next-gen.materialsproject.org/molecules) |
+| ConGen |H,B,C,N,O,<br>F,Si,P,S,Cl,<br>Br| 92 |B3LYP/6-31+G* | 62K | EA, IP | [Link](https://github.com/jpmailoa/ConGen_Dataset/blob/main/Figure_3_Training_Data/data_Table_2/table_2_MP_IE_EA.csv) |
 | OMEAD |H,Li,C,N,O,F,<br>Na,S,Cl,Zn,Se,Br| 122 |B3LYP/6–31G(d) | 26K | HOMO, LUMO, EA, IP, E₀ | [Link](https://github.com/rpcarvs/anima/blob/main/databases/OMEAD_26218.csv) |
 | MNSOL |--| ? |Exp | 2K | ΔG(sol) | [Link](https://conservancy.umn.edu/items/c3db00cf-d573-461b-adf5-389ff929d918) |
 | ASMS |--| ? |Exp | ~2K | aqueous solubility | [Link](https://pubs.acs.org/doi/suppl/10.1021/ci800406y/suppl_file/ci800406y_si_001.xls) |
