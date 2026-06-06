@@ -52,7 +52,7 @@ Small organic molecules with properties relevant to electrochemical systems, inc
 | Dataset | Elements | MNHA |  Method | Size | Key Properties | Access |
 |:----------|:---|:-|:-------|:-|:----------|:-|
 | QM9 |H,C,N,O,F| 9 |B3LYP/6-31G(2df,p) | 134K | HOMO, LUMO, μ| [Link](https://figshare.com/collections/Quantum_chemistry_structures_and_properties_of_134_kilo_molecules/978904) |
-| QMugs |H,C,N,O,F,P,S,Cl,Br,I| 100 |ωB97X-D/def2-SVP | ~2M | HOMO, LUMO, μ| [Link](https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM) |
+| QMugs |H,C,N,O,F,P,<br>S,Cl,Br,I| 100 |ωB97X-D/def2-SVP | ~2M | HOMO, LUMO, μ| [Link](https://libdrive.ethz.ch/index.php/s/X5vOBNSITAG5vzM) |
 | JCESR |H,Li,Be,B,C,N,O,F,Na,Mg,Al,Si,P,S,Cl,<br>Ca,Zn,Br| 92 |B3LYP/6-31+G* | 25K | EA, IP | [Link](https://next-gen.materialsproject.org/jcesr) |
 | MPcules |H,Li,B,C,N,O,F,Mg,P,S,Cl| 31 |ωB97M-V/def2-TZVPPD | 577K | EA, IP, E₀| [Link](https://next-gen.materialsproject.org/molecules) |
 | ConGen |H,B,C,N,O,F,Si,P,S,Cl,Br| 92 |B3LYP/6-31+G* | 62K | EA, IP | [Link](https://github.com/jpmailoa/ConGen_Dataset/blob/main/Figure_3_Training_Data/data_Table_2/table_2_MP_IE_EA.csv) |
