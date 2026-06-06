@@ -99,8 +99,8 @@ Liquid electrolyte systems including solvents, salts, and additives.
 
 Polymer systems with properties relevant to ion transport and electrochemical behavior.
 
-| Dataset | Description | Method | Size | Key Properties | Access |
-|:----------|:-------------|:------|:-----|:------------|:-----|
+| Dataset | Elements | Method | Size | Key Properties | Access |
+|:------------|:------|:---------|:-|:----------|:-|
 | PPPdb |--| Exp | 212 | Tg | [Link](https://pppdb.uchicago.edu/tg) |
 | VitrimerVAE |--| MD | 8K | Tg | [Link](https://github.com/vashisth-lab/VitrimerVAE/tree/main) |
 | PolyMetriX |--| Exp | 7K | Tg | [Link](https://zenodo.org/records/14980914) |
