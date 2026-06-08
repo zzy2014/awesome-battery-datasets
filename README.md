@@ -109,7 +109,7 @@ Polymer systems with properties relevant to ion transport and electrochemical be
 | Polymer Scholar |--| Mixed | >100k | Eg, Tg, Tensile modulus, Young's modulus | [Link](https://polymerscholar.org/) |
 | PoLyInfo |--| Exp | >200K | DC, Tg, Tensile modulus | [Link](https://polymer.nims.go.jp/) |
 | PolyOmics |--| MD | 3M | DC, Tg, bulk modulus, self-diffusion coefficient | [Link](https://huggingface.co/datasets/yhayashi1986/PolyOmics) |
-| PEDatamine |--| Exp | 5k | Tg, COND | [Link](https://pedatamine.org/) |
+| PolymerElectrolyte |H,C,N,O,<br>Si,P,S| Exp | 655 | Tg, COND | [Link](https://github.com/nschauser/PolymerElectrolyte/blob/main/_Cleaned_Final_Data_6_2_2020.csv) |
 | HTP-MD |--| MD | 6k | COND, Li diffusion coefficient | [Link](https://www.htpmd.matr.io/ ) |
 | Chem-Arr |--| Exp | 15k | COND | [Link](https://github.com/learningmatter-mit/Chem-prop-pred) |
 
