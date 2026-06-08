@@ -106,7 +106,7 @@ Polymer systems with properties relevant to ion transport and electrochemical be
 | VitrimerVAE |H,C,N,O| MD | 8K | Tg | [Link](https://github.com/vashisth-lab/VitrimerVAE/blob/main/Calibration/tg_vitrimer_calibrated.csv) |
 | PolyMetriX |H,Li,B,C,N,<br>O,F,Na,Si,P,<br>S,Cl,K,Ca,Zn,<br>Ge,Se,Br,Cd,<br>Sn,I,Te,Pb| Exp | 7K | Tg | [Link](https://zenodo.org/records/14980914) |
 | Chemprop |H,B,C,N,O,<br>F,S,Cl,Br,I| xTB+B3LYP/DZP | 42K | EA, IP | [Link](https://github.com/coleygroup/polymer-chemprop-data/blob/main/datasets/vipea/dataset.csv) |
-| OpenPoly |H,Li,B,C,N,<br>O,F,Na,Si,P,<br>S,Cl,K,Ca,Fe,<br>Zn,Ge,Se,Br,Cd,<br>Sn,I,Te,Pb| Exp | 13k | Eg, Tg, Tensile modulus | [Link](https://cleanenergymaterials.cn/polymer/polymer_database/experiment_polymer_database) |
+| OpenPoly |H,Li,B,C,N,<br>O,F,Na,Si,P,<br>S,Cl,K,Ca,Fe,<br>Zn,Ge,Se,Br,Cd,<br>Sn,I,Te,Pb| Exp | 13k | Eg, Tg, Tensile Strength | [Link](https://cleanenergymaterials.cn/polymer/polymer_database/experiment_polymer_database) |
 | Polymer Scholar |--| Mixed | >100k | Eg, Tg, Tensile modulus, Young's modulus | [Link](https://polymerscholar.org/) |
 | PoLyInfo |--| Exp | >200K | DC, Tg, Tensile modulus | [Link](https://polymer.nims.go.jp/) |
 | PolyOmics |--| MD | 3M | DC, Tg, bulk modulus, self-diffusion coefficient | [Link](https://huggingface.co/datasets/yhayashi1986/PolyOmics) |
