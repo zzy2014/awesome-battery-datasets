@@ -76,10 +76,10 @@ Small organic molecules with properties relevant to electrochemical systems, inc
 
 Crystalline materials with properties relevant to ion transport and electrochemical systems.
 
-| Dataset | Description | Method | Size | Key Properties | Access |
-|:----------|:-------------|:------|:-----|:------------|:-----|
+| Dataset | Elements | Method | Size | Key Properties | Access |
+|:------------|:------|:---------|:-|:----------|:-|
 | OQMD |--| -- | -- | --- | [Link]() |
-| ARVIS‐DFT |--| -- | -- | --- | [Link]() |
+| JARVIS-DFT |--| PBE+OptB88vdW | -- | Eg | [Link](https://figshare.com/articles/dataset/jdft_3d-7-7-2018_json/6815699) |
 
 ---
 
