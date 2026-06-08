@@ -49,7 +49,7 @@ Datasets are organized by **material type**, reflecting chemical and physical mo
 
 ## 2.1 Organic Small Molecules
 
-Small organic molecules with properties relevant to electrochemical systems, including redox activity and solvation behavior.
+Small organic molecules with properties relevant to electrochemical systems, including redox activity, solvation behavior, and thermodynamic properties.
 
 | Dataset | Elements | MNHA |  Method | Size | Key Properties | Access |
 |:------------|:---|:-|:---------|:-|:----------|:-|
