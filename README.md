@@ -89,9 +89,9 @@ Liquid electrolyte systems including solvents, salts, and additives.
 
 | Dataset | Elements | Method | Size | Key Properties | Access |
 |:------------|:------|:---------|:-|:----------|:-|
-| NUAA-COND |H,Li,C,N,O,F,P,S| MD | 2K | Li diffusion coefficient, COND | [Link](https://pubs.acs.org/doi/10.1021/acs.jpclett.5c02681#_i2) |
-| Bamboo |H,Li,B,C,N,O,F,P,S,Cl| Exp | 10K | COND | [Link](https://github.com/ByteDance-Seed/bamboo_mixer/blob/main/data_oss/formula_finetune_exp_data.json.xz) |
-| CALiSol-23 |H,Li,B,C,N,O,F,P,S,Cl| Exp | 13K | COND | [Link](https://github.com/Pele0599/CALiSol-23) |
+| NUAA-COND |H,Li,C,N,<br>O,F,P,S| MD | 2K | Li diffusion coefficient, COND | [Link](https://pubs.acs.org/doi/10.1021/acs.jpclett.5c02681#_i2) |
+| Bamboo |H,Li,B,C,N,<br>O,F,P,S,Cl| Exp | 10K | COND | [Link](https://github.com/ByteDance-Seed/bamboo_mixer/blob/main/data_oss/formula_finetune_exp_data.json.xz) |
+| CALiSol-23 |H,Li,B,C,N,<br>O,F,P,S,Cl| Exp | 13K | COND | [Link](https://github.com/Pele0599/CALiSol-23) |
 
 ---
 
@@ -103,7 +103,7 @@ Polymer systems with properties relevant to ion transport and electrochemical be
 |:------------|:------|:---------|:-|:----------|:-|
 | PPPdb |--| Exp | 212 | Tg | [Link](https://pppdb.uchicago.edu/tg) |
 | VitrimerVAE |H,C,N,O| MD | 8K | Tg | [Link](https://github.com/vashisth-lab/VitrimerVAE/blob/main/Calibration/tg_vitrimer_calibrated.csv) |
-| PolyMetriX |--| Exp | 7K | Tg | [Link](https://zenodo.org/records/14980914) |
+| PolyMetriX |H,Li,B,C,N,<br>O,F,Na,Si,P,<br>S,Cl,K,Ca,Zn,<br>Ge,Se,Br,Cd,<br>Sn,I,Te,Pb| Exp | 7K | Tg | [Link](https://zenodo.org/records/14980914) |
 | Chemprop |--| xTB+B3LYP/DZP | 42K | EA, IP | [Link](https://github.com/coleygroup/polymer-chemprop-data) |
 | OpenPoly |--| Exp | 13k | Tg, Eg, Tensile modulus | [Link](https://cleanenergymaterials.cn/polymer/polymer_database/experiment_polymer_database) |
 | Polymer Scholar |--| Mixed | >100k | Tg, Eg, Tensile modulus, Young's modulus | [Link](https://polymerscholar.org/) |
