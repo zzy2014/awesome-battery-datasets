@@ -79,6 +79,7 @@ Crystalline materials with properties relevant to ion transport and electrochemi
 | Dataset | Elements | Method | Size | Key Properties | Access |
 |:------------|:------|:---------|:-|:----------|:-|
 | OMDB-GAP1 |65 elements| PBE | 12K | Eg | [Link](https://omdb.mathub.io/dataset) |
+| OMC25 | H,B,C,N,O,<br>F,Si,P,S,<br>Cl,Br,I | PBE+D3 | ~230K | Total energy, Stress | [Link](https://huggingface.co/datasets/facebook/OMC25) |
 | JARVIS-DFT |Almost full periodic table| PBE+OptB88vdW | >100K | Eg | [Link](https://figshare.com/articles/dataset/jdft_3d-7-7-2018_json/6815699) |
 
 ---
