@@ -9,11 +9,9 @@ A curated catalog of publicly available datasets with properties relevant to Org
 This repository indexes publicly available datasets relevant to:
 
 - Molecular and polymer property prediction
-- Electrolyte systems modeling and design
-- Battery materials discovery and simulation
-- Solid-state and crystalline materials modeling
-
-It does NOT host datasets, only provides structured references to original sources.
+- Electrolyte modeling and design, including liquid and polymer electrolytes
+- Redox-active molecules, organic electrodes, and battery-relevant organic materials
+- Molecular crystals and solid-state organic materials relevant to electrochemical systems
 
 ---
 
